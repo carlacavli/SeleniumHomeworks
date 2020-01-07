@@ -52,14 +52,14 @@ public class Fees {
             //Type the name of the city
 
             List<WebElement> name = driver.findElements(By.xpath("//*[@class='mat-form-field-infix']//child::input"));
-            String smsn = "smsnn";
-            name.get(3).sendKeys("smsnn");
+            String nj = "newjersey";
+            name.get(3).sendKeys("newjersey");
 
             List<WebElement> code = driver.findElements(By.xpath("//*[@class='mat-form-field-infix']//child::input"));
-            code.get(4).sendKeys("alacam");
+            code.get(4).sendKeys("cavli");
 
             List<WebElement> integrationcode = driver.findElements(By.xpath("//*[@class='mat-form-field-infix']//child::input"));
-            integrationcode.get(5).sendKeys("smyr");
+            integrationcode.get(5).sendKeys("carla");
 
             List<WebElement> prioty = driver.findElements(By.xpath("//*[@class='mat-form-field-infix']//child::input"));
             prioty.get(6).sendKeys("16");
@@ -109,7 +109,7 @@ public class Fees {
                 Assert.fail("Update failure", e);
 
             }
-            wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[text()='" + "smsnn" + "1" + "']")));
+            wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[text()='" + "newjersey" + "1" + "']")));
 
             driver.findElement(By.cssSelector("tbody > tr:last-child ms-delete-button")).click();
 
