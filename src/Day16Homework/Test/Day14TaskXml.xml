@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="Test Cases">
+        <classes>
+            <class name= "day14.homework.Task1Solution"/>
+            <class name="day14.homework.Task2Solution"/>
+            <class name="day14.homework.Task3"/>
+            <class name="day14.homework.Task3Version2"/>
+            <class name="day14.homework.Task4"/>
+            <class name="day14.homework.Task4Version2"/>
+        </classes>
+    </test>
+</suite>
